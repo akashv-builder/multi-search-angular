@@ -9,7 +9,6 @@ import { TMDB } from '../../../../Config/tmdb.config';
 })
 export class MovieComponent implements OnInit {
   @Input() movierecievedbymovie: any;
-  openModel:boolean=false;
   image_base:string=TMDB.image_base;
   constructor(private movieService: MovieService) { }
 

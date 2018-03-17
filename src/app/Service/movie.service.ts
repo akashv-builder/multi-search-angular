@@ -16,7 +16,6 @@ export class MovieService {
      .map(data => data.json(),
    (error: any)=>this.handleError(error));
    }
-
    
    private handleError(error: Response){
      return Observable.throw(error.statusText);

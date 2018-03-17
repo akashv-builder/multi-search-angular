@@ -13,6 +13,12 @@ import { FavmoviesComponent } from './Components/favmovies/favmovies.component';
 import { FavmovieComponent } from './Components/favmovies/favmovie/favmovie.component';
 import { HttpModule } from '@angular/http';
 import { AppRoutingModule } from './app-routing.module';
+import { NewsComponent } from './Components/news/news.component';
+import { FavnewsComponent } from './Components/favnews/favnews.component';
+import { NewsSearchComponent } from './Components/news/news-search/news-search.component';
+import { NewsListComponent } from './Components/news/news-list/news-list.component';
+import { SingleNewsComponent } from './Components/news/news-list/single-news/single-news.component';
+import { FavnewsSingleComponent } from './Components/favnews/favnews-single/favnews-single.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -24,6 +30,12 @@ import { AppRoutingModule } from './app-routing.module';
     MovieComponent,
     FavmoviesComponent,
     FavmovieComponent,
+    NewsComponent,
+    FavnewsComponent,
+    NewsSearchComponent,
+    NewsListComponent,
+    SingleNewsComponent,
+    FavnewsSingleComponent,
   ],
   imports: [
     BrowserModule,

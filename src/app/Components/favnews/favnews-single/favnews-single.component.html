@@ -1,0 +1,12 @@
+<div class="card my-3">
+  <div class="card-body">
+    <div id="scroll">
+      <h5 class="card-title one">{{favnewsSendByFavNews.title}}</h5>
+    <div  class="card-text rubic">{{favnewsSendByFavNews.description}}</div>
+  </div>
+      <p class="card-text"><small class="text-muted">{{favnewsSendByFavNews.publishedAt}}</small></p>
+      <button type="button"  class="btn btn-primary" (click)="deleteNews(favnewsSendByFavNews)">Delete From Favourite</button>
+      <button type="button"  class="btn btn-primary" (click)="modifyNews(favnewsSendByFavNews)">Modify The Favourite</button>
+   </div>
+</div>
+ 
