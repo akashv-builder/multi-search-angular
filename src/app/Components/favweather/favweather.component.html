@@ -1,18 +1,17 @@
+<!-- takes the fav city list and pass it to child to display one by one -->
 <div id="margin" class="container-fluid">
   <div class="row">
-      <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4" *ngFor="let favCity of favWeather">
-        <app-favweather-single [favcitySendByFavCity]="favCity"></app-favweather-single>  
-      </div>
+    <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4" *ngFor="let favCity of favWeather">
+      <app-favweather-single [favcitySendByFavCity]="favCity"></app-favweather-single>
+    </div>
   </div>
 </div>
-
-
+<!-- in case when there is no city is added a jumbotron is added -->
 <div *ngIf="hideVar">
   <div class="jumbotron jumbotron-fluid text-center my-0 mx-0">
-        <div class="container">
-          <h1 class="display-4">Please Add Some Favrouite City First</h1>
-          <p class="lead">You can add a favourite city by searching a city and clicking add to favourite button</p>
-      </div>
+    <div class="container">
+      <h1 class="display-4">Please Add Some Favrouite City First</h1>
+      <p class="lead">You can add a favourite city by searching a city and clicking add to favourite button</p>
+    </div>
   </div>
 </div>
-  

@@ -7,11 +7,15 @@ import { WeatherService } from '../../Service/weather.service'
   providers:[WeatherService],
 })
 export class FavweatherComponent implements OnInit {
+  //array to store fav weather list
   favWeather=[];
   hideVar:boolean=false;
+
+  //making instance of service class
   constructor(private weatherService : WeatherService) { }
 
   ngOnInit() {
+    //claiing service method to display the fav cites added
     this.weatherService.showFav().subscribe((res) =>{
       this.favWeather = res.weathers;
       if(this.favWeather.length==0){

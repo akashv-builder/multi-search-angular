@@ -1,17 +1,17 @@
+<!-- will take the favmovies list and pass to child to display a single movie -->
 <div id="margin" class="container-fluid">
-    <div class="row">
-        <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4" *ngFor="let favnews of favNewsList">
-          <app-favnews-single [favnewsSendByFavNews]="favnews"></app-favnews-single>  
-        </div>
+  <div class="row">
+    <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4" *ngFor="let favnews of favNewsList">
+      <app-favnews-single [favnewsSendByFavNews]="favnews"></app-favnews-single>
     </div>
+  </div>
 </div>
-  
+<!-- in case if there is no news is edded a jumbotron will open displaying a message to add a news first -->
 <div *ngIf="hideVar">
-    <div class="jumbotron jumbotron-fluid text-center my-0 mx-0">
-          <div class="container">
-            <h1 class="display-4">Please Add Some Favrouite News First</h1>
-            <p class="lead">You can add a favourite news by searching a news and clicking add to favourite button</p>
-        </div>
+  <div class="jumbotron jumbotron-fluid text-center my-0 mx-0">
+    <div class="container">
+      <h1 class="display-4">Please Add Some Favrouite News First</h1>
+      <p class="lead">You can add a favourite news by searching a news and clicking add to favourite button</p>
     </div>
- </div>
-    
+  </div>
+</div>

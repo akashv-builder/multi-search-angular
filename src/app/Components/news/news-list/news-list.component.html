@@ -1,8 +1,8 @@
+<!-- div to take a signle news from news list and pass it to chlid -->
 <div class="container-fluid">
-	<div class="row">
-            <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4 d-flex align-items-stretch" *ngFor="let news of newsrecievedbynewslist">
-                  <app-single-news [newsrecievedbysinglenews]="news"></app-single-news>
-           </div>
-     </div>
+  <div class="row">
+    <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4 d-flex align-items-stretch" *ngFor="let news of newsrecievedbynewslist">
+      <app-single-news [newsrecievedbysinglenews]="news"></app-single-news>
+    </div>
+  </div>
 </div>
-

@@ -11,7 +11,9 @@ export class WeatherComponent implements OnInit {
 
   ngOnInit() {
   }
+  //getting the output from child
   setWeatherObject(event) {
+    //storing the output event in weather
   	this.weather = event.weatherObject;
   }
 }

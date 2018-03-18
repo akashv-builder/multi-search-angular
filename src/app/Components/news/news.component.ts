@@ -6,11 +6,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./news.component.css']
 })
 export class NewsComponent implements OnInit {
+  //array to store the news
   public news =[];
   constructor() { }
 
   ngOnInit() {
   }
+  //recieving the output
   setNewslist(event) {
   	this.news = event.newsList;
   }

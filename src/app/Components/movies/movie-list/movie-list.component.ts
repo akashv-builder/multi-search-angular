@@ -6,6 +6,7 @@ import { Component, OnInit, Input } from '@angular/core';
   styleUrls: ['./movie-list.component.css']
 })
 export class MovieListComponent implements OnInit {
+	//getting input from parent includes list of all movie
   @Input() moviesrecievedbymovielist;
   constructor() { }
 
