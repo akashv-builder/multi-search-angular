@@ -5,6 +5,9 @@
 
 #imgsize {
   height: 400px;
+  background-image: url('assets/user_profile.jpg');
+  background-repeat: no-repeat;
+
 }
 
 .one {
