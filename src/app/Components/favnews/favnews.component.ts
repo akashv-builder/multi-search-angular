@@ -16,7 +16,6 @@ export class FavnewsComponent implements OnInit {
   ngOnInit() {
     this.newsService.showFav().subscribe((res) =>{
       this.favNewsList = res.news;
-      console.log(this.favNewsList);
      if(this.favNewsList.length==0){
       this.hideVar=true;
      }

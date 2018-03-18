@@ -19,6 +19,11 @@ import { NewsSearchComponent } from './Components/news/news-search/news-search.c
 import { NewsListComponent } from './Components/news/news-list/news-list.component';
 import { SingleNewsComponent } from './Components/news/news-list/single-news/single-news.component';
 import { FavnewsSingleComponent } from './Components/favnews/favnews-single/favnews-single.component';
+import { WeatherComponent } from './Components/weather/weather.component';
+import { FavweatherComponent } from './Components/favweather/favweather.component';
+import { WeatherSearchComponent } from './Components/weather/weather-search/weather-search.component';
+import { WeatherListComponent } from './Components/weather/weather-list/weather-list.component';
+import { FavweatherSingleComponent } from './Components/favweather/favweather-single/favweather-single.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -36,6 +41,11 @@ import { FavnewsSingleComponent } from './Components/favnews/favnews-single/favn
     NewsListComponent,
     SingleNewsComponent,
     FavnewsSingleComponent,
+    WeatherComponent,
+    FavweatherComponent,
+    WeatherSearchComponent,
+    WeatherListComponent,
+    FavweatherSingleComponent,
   ],
   imports: [
     BrowserModule,

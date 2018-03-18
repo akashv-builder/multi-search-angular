@@ -1,3 +1,30 @@
 {
-  "news": []
+  "news": [
+    {
+      "source": {
+        "id": null,
+        "name": "Thetakeout.com"
+      },
+      "author": "Kevin Warwick on The Takeout, shared by Virginia K. Smith to Lifehacker",
+      "title": "Why are candy-coated fennel seeds served at Indian restaurants?",
+      "description": "Amuse Our Bouche is The Takeout’s column that answers your burning, boiling, and flambéed food questions. Read more...",
+      "url": "https://thetakeout.com/why-are-candy-coated-fennel-seeds-served-at-indian-rest-1798252692",
+      "urlToImage": "https://i.kinja-img.com/gawker-media/image/upload/s--qQmv2QYf--/c_fill,fl_progressive,g_center,h_450,q_80,w_800/j2lc7q7ew5xpnapperos.jpg",
+      "publishedAt": "2018-03-05T04:25:00Z",
+      "id": 1
+    },
+    {
+      "source": {
+        "id": "engadget",
+        "name": "Engadget"
+      },
+      "author": "Mariella Moon",
+      "title": "Facebook's Express WiFi program now has an app on Google Play",
+      "description": "Facebook has quietly launched its Express WiFi app on Google Play, and it's now available for download in Indonesia and Kenya. The application gives users a way to purchase internet connection from participating businesses instead of paying for a more expensi…",
+      "url": "https://www.engadget.com/2018/03/15/facebooks-express-wifi-google-play-app/",
+      "urlToImage": "https://o.aolcdn.com/images/dims?thumbnail=1200%2C630&quality=80&image_uri=https%3A%2F%2Fo.aolcdn.com%2Fimages%2Fdims%3Fcrop%3D5760%252C3592%252C0%252C86%26quality%3D85%26format%3Djpg%26resize%3D1600%252C998%26image_uri%3Dhttp%253A%252F%252Fo.aolcdn.com%252Fhss%252Fstorage%252Fmidas%252Fc0a4b08c1cffc57b8afd3f57613576fe%252F206219050%252Felegant-maasai-man-using-a-smartphone-picture-id640333470%26client%3Da1acac3e1b3290917d92%26signature%3D92d9d5722c2bcfbe2fb0eaa49b41263fcbbd0b4c&client=cbc79c14efcebee57402&signature=6d2b0a2c8b8435ee7c6b469f33e8a62d6faa685a",
+      "publishedAt": "2018-03-16T03:58:00Z",
+      "id": 2
+    }
+  ]
 }

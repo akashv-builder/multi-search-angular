@@ -12,9 +12,11 @@ export class FavmoviesComponent implements OnInit {
   constructor(private movieService : MovieService) { }
 
   ngOnInit() {
+    this.favMoviesList=[];
     this.movieService.showFav().subscribe((res) =>{
+      this.favMoviesList=[];
+      console.log("show");
       this.favMoviesList = res.movies;
-      console.log(this.favMoviesList);
      if(this.favMoviesList.length==0){
       this.hideVar=true;
      }
