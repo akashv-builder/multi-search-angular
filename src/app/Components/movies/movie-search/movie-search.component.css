@@ -22,7 +22,7 @@
   padding: 0px 10px;
   margin-top: 10px;
   color: #fff;
-  background:rgb(34, 150, 204);
+  background:rgb(60, 72, 185);
   font-size: 27px;
   font-weight: 500;
     -webkit-box-shadow: none;
@@ -6162,7 +6162,9 @@ body > * {
     width: 100%;
     height: 100%;
     content: ' ';
-    background: linear-gradient(to bottom right, rgba(18, 187, 173, 0.9) 0%, rgba(79, 112, 206, 0.9) 100%); }
+    background: linear-gradient(to bottom right, rgba(50, 90, 202, 0.5) 0%, rgba(79, 112, 206, 0.5) 100%); }
+
+    
 
 .section-dark {
   position: relative;
