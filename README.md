@@ -1,6 +1,6 @@
 # MultiSearch
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.3.
+This project provide multiple functionalitie like movies search, news search and weather search.
 
 ## Development server
 
