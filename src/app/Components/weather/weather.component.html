@@ -1,2 +1,4 @@
 <app-weather-search (success)="setWeatherObject($event)"></app-weather-search>
+<div *ngIf="weather">
 <app-weather-list [weatherrecievedbyweatherlist]="weather"></app-weather-list>
+</div>

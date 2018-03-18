@@ -1,12 +1,13 @@
+
 <div class="text-center">
-<div class="card my-3">
-  <div class="card-body">
-    <h5 class="card-title one">Name:{{weatherrecievedbyweatherlist.name}}</h5>
-    <div  class="card-text rubic">Temperature:{{weatherrecievedbyweatherlist.main.temp}}</div>
-    <div  class="card-text rubic">Longitude:{{weatherrecievedbyweatherlist.coord.lon}}</div>
-    <div  class="card-text rubic">Latitude:{{weatherrecievedbyweatherlist.coord.lat}}</div>
-    <p class="card-text"><small class="text-muted">{{weatherrecievedbyweatherlist.weather[0].main}}</small></p>
-    <button type="button" class="btn btn-primary" (click)="addWeather(weatherrecievedbyweatherlist)">Add to Favourite</button>
-  </div>
-</div>
-</div>
+    <div class="card my-3">
+      <div class="card-body">
+        <h5 class="card-title one">Name:{{weatherrecievedbyweatherlist.name}}</h5>
+        <div  class="card-text rubic">Temperature:{{weatherrecievedbyweatherlist.main.temp}}</div>
+        <div  class="card-text rubic">Longitude:{{weatherrecievedbyweatherlist.coord.lon}}</div>
+        <div  class="card-text rubic">Latitude:{{weatherrecievedbyweatherlist.coord.lat}}</div>
+        <p class="card-text"><small class="text-muted">{{weatherrecievedbyweatherlist.weather[0].main}}</small></p>
+        <button type="button" class="btn btn-primary" (click)="addWeather(weatherrecievedbyweatherlist)">Add to Favourite</button>
+      </div>
+    </div>
+    </div>
