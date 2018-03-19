@@ -18,6 +18,13 @@
       "adult": false,
       "overview": "When a powerful developer named Mr. Scheck wants to knock down all the stores and houses in Arnold's neighborhood to build a huge \"mall-plex\", it looks likes the neighborhood is doomed to disappear. But with the help of a superhero and a mysterious deep-voiced stranger, Arnold and Gerald will need to recover a crucial document in order to save their beloved neighborhood.",
       "release_date": "2002-06-28"
+    },
+    {
+      "title": "cat",
+      "overview": "After being bitten by a genetically altered spider, nerdy high school student Peter Parker is endowed with amazing powers.",
+      "release_date": "2002-05-01",
+      "poster_path": "/rZd0y1X1Gw4t5B3f01Qzj8DYY66.jpg",
+      "id": 557
     }
   ]
 }
